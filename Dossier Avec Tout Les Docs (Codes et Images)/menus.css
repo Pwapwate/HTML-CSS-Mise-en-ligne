@@ -1,0 +1,186 @@
+/* menu FullScreen */
+.menu {
+  background-color: #971f20;
+  width: 100%;
+  height: 88px;
+  line-height: 88px;
+  border-bottom: 2px solid #6d836e;
+}
+
+.m-left {
+  float: left;
+}
+.logo {
+  margin: auto;
+  padding: auto;
+  color: aliceblue;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 35px;
+  letter-spacing: 1px;
+}
+.m-right {
+  float: right;
+}
+.m_link {
+  text-decoration: none;
+  color: aliceblue;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 20px;
+  padding: 0;
+  margin: 0 10px;
+  transition: all 0.15s ease-in-out;
+  border-bottom: 2px solid transparent;
+}
+.m_link:hover {
+  padding-bottom: 3px;
+  border-bottom: 2px solid #000000;
+  color: #000000;
+}
+/* PhoneScreen */
+.topnav {
+  overflow: hidden;
+  background-color: rgb(117, 117, 117);
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+.topnav a {
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+.topnav a.icon {
+  margin-top: 6px;
+  margin-right: 6px;
+  background: #971f20;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  border: 4px solid white;
+  border-radius: 20%;
+}
+
+.topnav a:hover {
+  background-color: rgb(179, 179, 179);
+  color: #971f20;
+  border-color: #971f20;
+}
+
+.active {
+  background-color: #971f20;
+  color: white;
+}
+.menu_phone {
+  display: none;
+}
+/* Footer Full screen*/
+.footer {
+  margin-top: 3%;
+  background-color: #971f20;
+  width: 100%;
+  height: 66px;
+  line-height: 66px;
+}
+
+.f-left {
+  float: left;
+}
+.footer_image {
+  height: 60px;
+  padding: 5%;
+  margin-left: 100%;
+}
+.f-right {
+  float: right;
+}
+.f_link {
+  text-decoration: none;
+  color: aliceblue;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 15px;
+  padding: 0;
+  margin: 0 10px;
+  transition: all 0.15s ease-in-out;
+}
+.f_link:hover {
+  padding-bottom: 3px;
+  border-bottom: 2px solid #000000;
+  color: #000000;
+}
+/* Footer Phone screen*/
+.footer_phone {
+  margin-top: 3%;
+  background-color: #971f20;
+  width: 100%;
+  height: 66px;
+  line-height: 66px;
+  display: none;
+}
+.f_phone {
+  text-decoration: none;
+  color: rgb(219, 219, 219);
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 20px;
+  padding: 0;
+  text-align: center;
+  margin-left: 35%;
+
+  transition: all 0.15s ease-in-out;
+}
+.f_phone:hover {
+  padding-bottom: 3px;
+  border-bottom: 2px solid #000000;
+  color: #000000;
+}
+/* Responsive */
+@media screen and (max-width: 1400px) {
+  .menu {
+    display: none;
+  }
+  .menu_phone {
+    display: block;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .menu {
+    display: none;
+  }
+  .menu_phone {
+    display: block;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .footer {
+    display: none;
+  }
+  .footer_phone {
+    display: block;
+  }
+}
+@media screen and (max-width: 900px) {
+  .menu {
+    display: none;
+  }
+  .menu_phone {
+    display: block;
+  }
+}
+@media screen and (max-width: 750px) {
+  .menu {
+    display: none;
+  }
+}
+@media screen and (max-width: 450px) {
+  .logo {
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,11 @@
+html,
+body {
+  margin: 0;
+  padding: 0px;
+  font-family: "Nova Square", sans-serif;
+  background-color: rgb(214, 214, 214);
+}
+.inner {
+  width: 95%;
+  margin: auto;
+}
